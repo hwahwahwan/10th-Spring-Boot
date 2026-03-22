@@ -193,7 +193,7 @@ DELETE /users/1
 
 ### 3. ERD 기반으로 API 구조 설계
 
-기존에 설계한 ERD의 테이블 구조를 기준으로 API를 설계하였다.
+기존에 설계한 ERD의 테이블 구조를 기준으로 API를 설계
 
 - `region → store → mission`  
   → 지역 선택 시 미션 목록이 조회되는 구조이기 때문에 `/regions/{regionId}/missions` 형태로 설계
