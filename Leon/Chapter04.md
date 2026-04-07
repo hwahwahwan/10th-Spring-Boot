@@ -500,3 +500,27 @@ member + term + foodCategory
 - review → 오직 결과만 담당
 
 구조가 더 자연스럽고 유지보수 쉬워짐
+
+---
+
+## 4. 미션 기록
+
+### ERD
+
+![umc10th_workbook_ERD.png](images/umc10th_workbook_ERD.png)
+
+### 변경점
+- term, member_term 테이블 추가
+- memberStatus 타입을 enum 으로 변경
+
+### member 도메인
+
+![member_domain_structure.png](images/member_domain_structure.png)
+
+### mission 도메인
+
+![mission_domain_structure.png](images/mission_domain_structure.png)
+
+### review 도메인
+
+![review_domain_structure.png](images/review_domain_structure.png)
