@@ -70,7 +70,7 @@ Member member = repository.findById(1L); // 실제 쿼리 : SELECT * FROM MEMBER
 member.getTeam().getName(); // 팀 정보가 없어서 에러 발생
 ```
 
-![객체그래프](images/chapter07/객체그래프.png)
+![객체그래프](images/chapter07/object_graph.png)
 
 
 단방향
